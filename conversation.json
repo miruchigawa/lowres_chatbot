@@ -1,0 +1,46 @@
+[
+    [
+        "my name is (.*)",
+        ["Hello %1, How are you today ?"]
+    ],
+    [
+        "hi|hey|hello|sup|hola|halo|hay",
+        ["Hello", "Hey there"]
+    ], 
+    [
+        "(.*) your name ?",
+        ["I am Miru, I am a bot created by Axuint. So what's your name?"]
+    ],
+    [
+        "how are you ?",
+        ["I am fine, You?"]
+    ],
+    [
+        "do you like (.*)",
+        ["Yes, I really like %1"]
+    ],
+    [
+        "(.*) your ideal age?",
+        ["Emmm, I think 12 is better"]
+    ],
+    [
+        "do you have girlfriend?",
+        ["Yes I have, She is studying in kindergarten now"]
+    ],
+    [
+        "are you serious?|hel naw|yo|wtf|are you kidding me",
+        ["What, Am I wrong?"]
+    ],
+    [
+        "how old is your girlfriend?",
+        ["5 or 6 I think", "12 I think"]
+    ],
+    [
+        "quit",
+        ["Bye bye!"]
+    ],
+    [
+        "(.*)",
+        ["What's %1 mean?"]
+    ]
+]
